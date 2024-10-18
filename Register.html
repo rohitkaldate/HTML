@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Registration Form</title>
+    
+</head>
+<body>
+<center>
+    <h2>Registration Form</h2>
+
+    
+    <form>
+        <label for="firstName">First Name:</label>
+        <input type="text" id="firstName" name="firstName" required><br><br>
+
+        <label for="lastName">Last Name:</label>
+        <input type="text" id="lastName" name="lastName" required><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="phone">Phone:</label>
+        <input type="tel" id="phone" name="phone" required><br><br>
+
+        <label for="country">Country:</label>
+        <select id="country" name="country" required>
+            <option value="India">India</option>
+            <option value="USA">USA</option>
+            <option value="UK">UK</option>
+            <!-- Add more countries as needed -->
+        </select><br><br>
+
+        <label for="city">City:</label>
+        <select id="city" name="city" required>
+            <option value="Bhubaneshwar">Bhubaneshwar</option>
+            <option value="New York">New York</option>
+            <option value="London">London</option>
+            <!-- Add more cities as needed -->
+        </select><br><br>
+
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" name="dob" required><br><br>
+
+        <label>Gender:</label>
+        <input type="radio" id="male" name="gender" value="M" required>
+        <label for="male">Male</label>
+
+        <input type="radio" id="female" name="gender" value="F" required>
+        <label for="female">Female</label><br><br>
+
+        <input type="checkbox" id="emailNotification" name="emailNotification">
+        <label for="emailNotification">Email Notification</label><br><br>
+
+        <input type="submit" value="Submit">
+    </center>
+    </form>
+
+</body>
+</html>
