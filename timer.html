@@ -1,0 +1,17 @@
+<html>
+<body>
+    <div id="clock"></div>
+    <script>
+        function MyTimmer() {
+            const now = new Date();
+            const hours = String(now.getHours());
+            const minutes = String(now.getMinutes());
+            const seconds = String(now.getSeconds());
+            const currentTime = `${hours}:${minutes}:${seconds}`;
+            document.getElementById('clock').textContent = currentTime;
+        }
+        setInterval(MyTimmer);
+        MyTimmer(); 
+    </script>
+</body>
+</html>
