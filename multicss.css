@@ -1,0 +1,20 @@
+#para2
+{
+    color: blue;
+    font-size: 60px;
+    background: rgb(128, 128, 128);
+}
+    #para3
+    {
+    background-color:burlywood;
+    color: rgb(3, 10, 3);
+    font-size: 100px;
+
+    }
+    
+    p[name="para1"] 
+    {
+      background: rgb(130, 193, 105);
+      font-size: 60px;
+      color: rgb(18, 4, 6);
+    }
